@@ -1,0 +1,126 @@
+1. Estatística vs Data Science
+
+-> Data science fica na interseção entre Matemática e Estatística, Ciência da Computação e Conhecimento das Áreas de Negócio
+-> A estatística é um dos pilares que compõem os conhecimentos de Data Science
+-> A ciência de dados vai além da estatística
+
+2. O que é Estatística?
+
+-> É o conjunto de métodos utilizados para analisar dados
+-> Pode ser aplicada em qualquer área do conhecimento humano
+-> Objetivo: auxiliar na compreensão dos eventos que nos cercam
+-> Ela é a ciência de aprendizado a partir de dados
+
+3. Áreas onde aplicamos estatística?
+
+-> Qualquer área que tenha dados disponíveis
+-> Ex: Bioestatística, Contabilometria, Controle de qualidade, Estatística Comercial, Estatística Econômica e etc
+
+4. A estatística e a quarta revolução industrial
+
+-> Rev. da Agricultura (1.0) -> Rev. Industrial (2.0) -> Rev. da Tecnologia (3.0) dec de 70, 80 -> Revolução Digital (4.0)
+-> As pessoas interagem por redes sociais, estamos conectados pela internet, fazemos transações bancárias com o nosso smartphon e etc
+-> Pra que essa 4 revolução aconteça precisamos de dados. Os dados estão no centro da quarta revolução industrial.
+-> Pra analisar os dados e extrair dos dados valor, utilizamos a estatística, que nos oferece ferramentas para isso.
+
+5. Principais áreas da estatística
+
+-> Probabilidade: Estudo da Aleatoriedade e da Incerteza. Ex: ML aplica probabilidade, ele entrega probabilidades;
+-> Estatística Descritiva: Utiliza métodos para coleta, organização, apresentação, análise e síntese de dados obtidos em uma população ou amostra; 
+-> Estatística Inferencial: É o processo de estimar informações sobre uma população a partir dos resultados observados em uma amostra; Ex: pesquisa eleitoral: extrai amostras e faz uma análise inferencial com base nessa amostra;
+
+-----------------------------------------------------------------------------
+
+POPULAÇÃO E AMOSTRA
+
+-> População: A população representa todos os elementos distintos que estão sendo estudados;
+-> Amostra: É uma parte da população; -> tem que ter mt cuidado na hora de extrair uma amostra pra que ela não seja tendenciosa (famoso bias)
+
+
+1. Técnicas de Amostragem
+
+-> Amostragem: Usa a Coleta, organização, apresentação e análise dos dados como meio de estudar os parâmetros de uma população
+-> Censo: É a técnica que seleciona e avalia todos os elementos da população quando se realiza uma pesquisa. -> o IBGE visita TODAS as casas do Brasil, o que pode levar anos e é caro demais. Por isso se opta pela amostragem.
+
+
+2. Qual o tamanho ideal da amostra?
+
+-> Os dados devem ser tratados com muito cuidado, de modo que as conclusões reflitam a realidade.
+-> É importante se preocupar com o tamnho e randomização da amostra. Sem que haja valores repetidos nessa amostra.
+
+
+3. Amostragem Probabilística x Não Probalística
+
+-> Probabilísticas: Os elementos da amostra são selecionados de forma aleatória
+Tipos: amostragem simples ao acaso, amostragem sistemática, amostragem por conglomerado, amsotragem estratificada, reamostragem (boostrap).
+
+-> Não Probabilística: Os elementos que vão compor a amostra são diretamente influenciados.
+Tipos: Amostragem a Esmo, intencional, por voluntários.
+
+----------------------------------------------------------------------------------
+
+PARÂMETRO X ESTATÍSTICA
+
+-> Parâmetro: Característica sobre a população. Valores calculados usando dados da população são chamados de parâmetros.
+-> Estatística: Característica da Amostra. Valores calculados usando dados da amostra são chamados de estatísticas. -> usado para ESTIMAR um parâmetro.
+-> Estatística Inferencial: realiza deduçoes e conclusões sobre a população, baseadas nos resultados obtidos da análise da amostra.
+
+
+1. Dados Primários x Secundários
+
+->>> Dado != Informação: Dados são valores coletados através de observação ou medição. Informação: dados que são transformados em fatos relevantes e usados para um propósito específico. <<<-
+Os dados não fazem sentido se não forem colocados em um contexto!
+
+-> Dados Primários: Coletados por quem faz a análise; Confiáveis; Possuem maior controle; Custo mais alto;
+-> Dados Secundários: Coletados por terceiros; Não confiáveis; Não possuem muito controle; Custo mais baixo;
+
+----------------------------------------------------------------------------------------------------------------------------
+
+OBSERVAÇÕES X VARIÁVEIS
+
+->
+->
+
+
+1. Tipos de Variáveis
+
+->
+->
+
+---------------------------------------------------------------------------------------------------------
+
+MEDIDAS
+
+1. Medidas de Posição - Média, Mediana e Moda
+
+->
+->
+
+2. Medidas de Dispersão - Variância e Desvio Padrão
+
+->
+->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
