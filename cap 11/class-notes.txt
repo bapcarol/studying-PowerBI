@@ -78,14 +78,27 @@ Os dados não fazem sentido se não forem colocados em um contexto!
 
 OBSERVAÇÕES X VARIÁVEIS
 
-->
-->
+-> Observação: Ocorrência de um item de dados específico que é gravada sobre uma unidade de dados. 
+(também chamado de registro, ocorrência do evento, instancia ou linha em uma tabela)
+-> Variável: É a característica de interesse que é medida em cada elemento da amostra ou população. Como o nome sugere, seus valores variam de elemento para elemneto. Variáveis podem ter valores numéricos ou categóricos.
+(também conhecido como atributo, característica ou coluna em uma tabela)
 
 
-1. Tipos de Variáveis
+1. Tipos de Variáveis (Qualitativas x Quantitativas)
 
-->
-->
+a) Qualitativas: 
+
+-> Utilizam termos descritivos para descrever algo de interesse; Ex: cor dos olhos, estado civil, religião etc
+-> Nominais: Não tem nenhum tipo de ordem/hierarquia. Ex: Profissão, Sexo, religião;
+-> Ordinais: Tem uma hierarquia. Ex: Escolaridade, Classe social, fila;
+
+b) Quantitativas: 
+
+-> Representadas por valores numéricos que podem ser contados ou medidos; Ex: número de crianças em uma sala de aula, peso do corpo humano, idade, número de filhos etc
+-> Discretas: Quando os valores podem ser contados. Ex: Número de filhos, número de carros, número de acessos;
+-> Contínuas: Quando pode medir a variável. Ex: Altura, Peso, Salário;
+
+Exemplo: Idade pode ser quantitativo discreto ou, se informado como faixa etária, pode ser qualitativo ordinal.
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -93,13 +106,40 @@ MEDIDAS
 
 1. Medidas de Posição - Média, Mediana e Moda
 
-->
-->
+-> São valores que representam a tendência de concentração dos dados observados. 
+-> As mais importantes são as medidas de tendência central. 
+-> As 3 medidas de tendência central mais utilizadas são: média aritmética, moda e mediana. 
+-> Podem ser extraídas tanto da população quanto da amostra
+
+a) Média
+
+-> São as formas mais simples de identificar tendências em um conjunto de dados.
+-> Soma de todos o sregistros de uma variável dividido pelo número de registros.
+-> A média pode não contar a história dos dados por ser afetada por valores extremos os outliers
+
+b) Mediana
+
+-> Valor que divide um conjunto de dados (ordenados) em duas partes com a mesma quantidade de dados;
+-> Se o número de elementos for ímpar, a mediana será (n+1)/2, senão é (n/2)+1
+
+b) Moda
+
+-> Valor de maior frequência na amostra, ou seja, o que aparece mais frequentemente no conjunto de dados;
+
 
 2. Medidas de Dispersão - Variância e Desvio Padrão
 
-->
-->
+-> Descrevem a amplitude dos dados, ou seja, quão espalhados os dados estão dentro de um conjunto
+
+a) Variância
+
+-> Mede a amplitude (variabilidade) dos dados em relação à média
+-> Mostra o quão distante os valores estão da média.
+
+b) Desvio Padrão
+
+-> Mede a variabilidade entre os números em um conjunto de dados. 
+-> Em termos simples: o desvio padrão é a distância média, da média.
 
 
 
