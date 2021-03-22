@@ -141,9 +141,57 @@ b) Desvio Padrão
 -> Mede a variabilidade entre os números em um conjunto de dados. 
 -> Em termos simples: o desvio padrão é a distância média, da média.
 
+c) Coeficiente de Variação:
+
+-> Medido em porcentagem; Mede o quanto aquele valor varia, a partir da média e do desvio padrão.
+-> CV = ( Desvio Padrão / Média ) * 100
 
 
+3. Medidas de Posição Relativa
 
+-> Os dados podem ser medidos em termos de posição relativa, que compara a posição de um valor, em relação a outro valor dentro do conjunto de dados.
+
+a) Percentil
+
+-> Ponto da distribuição dos resultados ordenados da amostra (por ordem crescente dos dados) em 100 partes de igual amplitude. Por exemplo, um resultado no percentil 90 significa que 90% dos resultados se situam nesse ponto ou abaixo dele.
+-> Pego uma variável ordenada e divido em 100 pedaços iguais 
+-> Ex: O percentil 80 significa que 80% dos pontos estão abaixo desse valor ou nesse ponto;
+-> Percentil != Porcentagem. Ex: Um aluno pode ter 80% de aproveitamento em uma prova e estar no percentil 97, ou seja, melhor ou igual 97% dos alunos.
+-> Percentil 50 == Mediana.
+
+b) Quartil
+
+-> Utilizado para analisar boxplots -> gráficos interessantes para análises univariadas, ou seja, em que se analisa cada variável individualmente.
+-> É um percentil específico de interesse.
+-> Lista: - Primeiro Quartil, 25% percentil.
+          - Segundo Quartil, 50% percentil. --->>> MEDIANA!
+          - Terceiro Quartil, 75% percentil.
+          - Quarto Quartil, 100% percentil.
+
+
+----->> No POWERBI <<-----
+
+Não tem função de quartil, apenas de percentil, mas como os quartis são percentis específicos, não há necessidade.
+As funções disponíveis são: - PERCENTILE
+                            - PERCENTILE.INC == Pega todos os valores INCLUSIVE aquele percentil (INC = INCLUSIVE). Ex: Percentil 80, pega tudo inclusive o 80
+                            - PERCENTILE.EXC == Pega todos os valores ATÉ aqule percentil (EXC = EXCLUSIVE). Ex: Percentil 80, pega tudo inclusive o 79.
+
+-----------------------------------------------------------------------------------------
+
+LINKS ÚTEIS: 
+
+- daxpatterns.com/statistical-patterns/
+- community.powerbi.com
+- community.powerbi.com/t5/Quick-Measures-Gallery/QUARTILE/td-p/1062307
+- Power BI: https://powerbi.microsoft.com/pt-br/
+- The Fourth Industrial Revolution: https://www.britannica.com/topic/The-Fourth-Industrial-Revolution-2119734
+- Introdução à Análise Estatística:https://edisciplinas.usp.br/pluginfile.php/4394902/mod_resource/content/0/plc0016_14.pdf
+- Probabilidade para Engenharias: https://www.inf.ufsc.br/~andre.zibetti/probabilidade/index.html
+- The Elements of Statistical Learning: https://web.stanford.edu/~hastie/ElemStatLearn/
+- DAX Patterns: https://www.daxpatterns.com/statistical-patterns/
+- Quartil:https://community.powerbi.com/t5/Quick-Measures-Gallery/QUARTILE/td-p/1064307
+              
+media, mediana, valor min, valor max, desvio padrao e contagem de elementos
 
 
 
